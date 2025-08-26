@@ -68,10 +68,12 @@ git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 
 Install required R packages (if not already installed):
+
 install.packages(c("shiny", "DT", "tidyverse", "colourpicker", "ggplot2", "reshape2", "pheatmap"))
 BiocManager::install("fgsea")
 
 Launch the Shiny app:
+
 shiny::runApp("app.R")
 
 ## Usage
@@ -82,10 +84,12 @@ shiny::runApp("app.R")
 
 ## Acknowledgements:
 * Data from
+  
     Labadorf A, Hoss AG, Lagomarsino V, Latourelle JC, Hadzi TC, Bregu J, et al. (2015) RNA Sequence Analysis of Human Huntington Disease Brain Reveals an Extensive Increase in Inflammatory and Developmental Gene Expression. PLoS ONE 10(12): e0143563. https://doi.org/10.1371/journal.pone.0143563
 * Huntington’s Disease mRNA-seq study (GSE64810)
 * MSigDB C2 curated gene sets for enrichment analysis
 
 ## Author:
 Mabel Chang
+
 Developed as the final project for BF591: Bioinformatics Programming & Applications at Boston University
