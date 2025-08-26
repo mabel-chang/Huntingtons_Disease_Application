@@ -1,5 +1,5 @@
 # R Shiny Huntington’s Disease Application BF591 (F23)
-## Overview:
+## Overview
 The application is an interactive R Shiny dashboard designed to facilitate the exploration and analysis of Huntington’s Disease (HD) transcriptomic data from Labadorf et al. (GEO accession: GSE64810). It offers a user-friendly interface for examining sample metadata, normalized gene expression counts, differential expression (DE) results, and gene set enrichment analysis (GSEA).
 
 The study utilized mRNA sequencing of post-mortem BA5 human brain tissue samples, including:
@@ -63,18 +63,21 @@ The application was built in R using the following packages:
 
 ## Running the Application
 * Clone this repository:
-
+```
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
+```
 
 * Install required R packages (if not already installed):
-
+```
 install.packages(c("shiny", "DT", "tidyverse", "colourpicker", "ggplot2", "reshape2", "pheatmap"))
 BiocManager::install("fgsea")
+```
 
 * Launch the Shiny app:
-
+```
 shiny::runApp("app.R")
+```
 
 ## Usage
 * Download the GSE64810 dataset from NCBI GEO
@@ -82,7 +85,7 @@ shiny::runApp("app.R")
 * Upload the relevant files into each corresponding tab.
 * Explore summaries, visualizations, and statistical analyses interactively.
 
-## Acknowledgements:
+## Acknowledgements
 * Data from
   
     Labadorf A, Hoss AG, Lagomarsino V, Latourelle JC, Hadzi TC, Bregu J, et al. (2015) RNA Sequence Analysis of Human Huntington Disease Brain Reveals an Extensive Increase in Inflammatory and Developmental Gene Expression. PLoS ONE 10(12): e0143563. https://doi.org/10.1371/journal.pone.0143563
