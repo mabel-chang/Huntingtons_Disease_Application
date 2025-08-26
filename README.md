@@ -62,17 +62,17 @@ The application was built in R using the following packages:
 * fgsea
 
 ## Running the Application
-Clone this repository:
+* Clone this repository:
 
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 
-Install required R packages (if not already installed):
+* Install required R packages (if not already installed):
 
 install.packages(c("shiny", "DT", "tidyverse", "colourpicker", "ggplot2", "reshape2", "pheatmap"))
 BiocManager::install("fgsea")
 
-Launch the Shiny app:
+* Launch the Shiny app:
 
 shiny::runApp("app.R")
 
