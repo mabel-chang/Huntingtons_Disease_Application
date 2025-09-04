@@ -1,4 +1,4 @@
-# R Shiny Huntington’s Disease Application BF591 (F23)
+# R Shiny Huntington’s Disease Application BF591
 ## Overview
 The application is an interactive R Shiny dashboard designed to facilitate the exploration and analysis of Huntington’s Disease (HD) transcriptomic data from Labadorf et al. (GEO accession: GSE64810). It offers a user-friendly interface for examining sample metadata, normalized gene expression counts, differential expression (DE) results, and gene set enrichment analysis (GSEA).
 
@@ -95,4 +95,4 @@ shiny::runApp("app.R")
 ## Author:
 Mabel Chang
 
-Developed as the final project for BF591: Bioinformatics Programming & Applications at Boston University
+Developed as the final project for BF591: Bioinformatics Programming & Applications at Boston University (F23)
