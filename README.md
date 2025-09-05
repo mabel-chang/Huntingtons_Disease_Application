@@ -95,4 +95,4 @@ shiny::runApp("app.R")
 ## Author:
 Mabel Chang
 
-Developed as the final project for BF591: Bioinformatics Programming & Applications at Boston University (F23)
+Developed as the final project for BF591: Bioinformatics Programming & Applications at Boston University (F23), instructed by Dr. Adam Labadorf
